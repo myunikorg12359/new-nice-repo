@@ -2,7 +2,7 @@ name: Nice
 
 on:
   pull_request:
-    types: [created]
+    types: [opened]
 
 jobs:
   build:
