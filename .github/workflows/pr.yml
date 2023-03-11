@@ -1,0 +1,11 @@
+name: Nice
+
+on:
+  pulls:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm i express
