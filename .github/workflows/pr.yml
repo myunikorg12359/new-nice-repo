@@ -1,7 +1,7 @@
 name: Nice
 
 on:
-  pulls:
+  pull_request:
     types: [created]
 
 jobs:
